@@ -22,7 +22,7 @@ function AddEmployee(props) {
                         </FormGroup>
                         <FormGroup>
                             <Label htmlFor="Address">
-                            Address
+                                Address
                             </Label>
                             <Input
                                 id="Address"
@@ -32,7 +32,7 @@ function AddEmployee(props) {
                         </FormGroup>
                         <FormGroup>
                             <Label htmlFor="age">
-                            Age
+                                Age
                             </Label>
                             <Input
                                 id="age"
@@ -40,7 +40,7 @@ function AddEmployee(props) {
                                 type="number"
                             />
                         </FormGroup>
-                        </Form>
+                    </Form>
                 </ModalBody>
                 <ModalFooter>
                     <Button
@@ -49,10 +49,10 @@ function AddEmployee(props) {
                         Add
                     </Button>
                     {' '}
-                    <Button onClick={()=>props.hide()} color="danger">
+                    <Button onClick={() => props.hide()} color="danger">
                         Cancel
                     </Button>
-                    
+
                 </ModalFooter>
             </Modal>
         </div>
